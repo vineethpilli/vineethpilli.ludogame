@@ -1,0 +1,78 @@
+body{
+	background-image: url('images/ludoback.jpg');
+	background-size: cover;
+}
+#locker-a{
+	border: 2px solid black;
+	height: 120px;
+	width:200px;
+	
+	background: red;
+	color: white;
+	
+}
+.container{
+	width: 640px;
+	height: 640px;
+	border: 2px solid black;
+}
+#locker-b{
+	border: 2px solid black;
+	height: 120px;
+	width:200px;
+	
+	background: blue;
+	color: white;
+	
+}
+#playername{
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 2px solid black;
+	background: linear-gradient(to right,#BF6603,yellow);
+}
+.form{
+	margin-top: 15px;
+}
+#button{
+	width: 300px;
+	height: 40px;
+	text-align: center;
+	background:linear-gradient(to bottom,#BF6603,yellow);
+	padding-top: 15px;
+	padding-bottom: 5px;
+	color: blue;
+	border: 2px solid brown;
+	font-size: 25px;
+	font-style: helvetica;
+
+
+}
+#selecter{
+	margin-top: 10px;
+	border: 2px solid brown;
+	color: white;
+	background-color: red;
+}
+#result{
+	width: 100px;
+	height: 30px;
+	background: white;
+	margin: 20px auto;
+	border: 2px solid blue;
+	padding-top: 10px;
+}
+
+.turn{
+	border: 3px solid yellow;
+	transition: border 0.7s;
+	background-color: black;
+}
+.onload{
+	border: 3px solid yellow;
+}
+
